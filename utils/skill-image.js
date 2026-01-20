@@ -74,15 +74,20 @@ import webix from '../app/assets/svg/skills/webix.svg';
 import wolframalpha from '../app/assets/svg/skills/wolframalpha.svg';
 import wordpress from '../app/assets/svg/skills/wordpress.svg';
 
-import pandas from '../app/assets/svg/skills/pandas.svg';
-import scikitlearn from '../app/assets/svg/skills/scikit-learn.svg';
 import dotnet from '../app/assets/svg/skills/dotnet.svg';
-import dotnetcore from '../app/assets/svg/skills/dotnetcore.svg'
-import kubernetes from '../app/assets/svg/skills/kubernetes.svg'
-import linux from '../app/assets/svg/skills/linux.svg'
-import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
-import fastapi from '../app/assets/svg/skills/fastapi.svg'
-
+import dotnetcore from '../app/assets/svg/skills/dotnetcore.svg';
+import fastapi from '../app/assets/svg/skills/fastapi.svg';
+import k8s from '../app/assets/svg/skills/k8s.svg';
+import kafka from '../app/assets/svg/skills/kafka.svg';
+import kubernetes from '../app/assets/svg/skills/kubernetes.svg';
+import linux from '../app/assets/svg/skills/linux.svg';
+import mariadb from '../app/assets/svg/skills/mariadb.svg';
+import milvus from '../app/assets/svg/skills/milvus.svg';
+import pandas from '../app/assets/svg/skills/pandas.svg';
+import redis from '../app/assets/svg/skills/redis.svg';
+import scikitlearn from '../app/assets/svg/skills/scikit-learn.svg';
+import springBoot from '../app/assets/svg/skills/springboot.svg';
+import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg';
 
 
 export const skillsImage = (skill) => {
@@ -132,6 +137,8 @@ export const skillsImage = (skill) => {
       return memsql;
     case 'mongodb':
       return mongoDB;
+    case 'mariadb':
+      return mariadb;
     case 'mysql':
       return mysql;
     case 'postgresql':
@@ -254,6 +261,16 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'milvus':
+      return milvus;
+    case 'kafka':
+      return kafka;
+    case 'redis':
+      return redis;
+    case 'springboot':
+      return springBoot;
+    case 'k8s':
+      return k8s;
     default:
       break;
   }

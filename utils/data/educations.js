@@ -1,20 +1,23 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Degree of Engineer Infomation Technology",
+    duration: "2018 - 2023",
+    institution: "Post and Telecomunication Institute of Technology (PTIT)",
+    classification: "Very good",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Scholarship",
+    duration: "2018 - 2019",
+    institution: "Post and Telecomunication Institute of Technology (PTIT)",
+    classification: "Very good",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Scholarship",
+    duration: "2020 - 2021",
+    institution: "Post and Telecomunication Institute of Technology (PTIT)",
+    classification: "Very good",
   }
 ]

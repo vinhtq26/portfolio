@@ -1,24 +1,22 @@
 export const skillsData = [
-  'HTML',
-  'CSS',
-  'Javascript',
-  'Typescript',
-  'React',
-  'Next JS',
-  'Tailwind',
+  'Java',
+  'SpringBoot',
+  'Python',
+  'fastapi',
+  // 'Go',
   'MongoDB',
-  'MySQL',
-  'PostgreSQL',
+  // 'MySQL',
+  'MariaDB',
+  'Milvus',
   'Git',
-  'AWS',
-  'Bootstrap',
+  // 'AWS',
+  // 'Azure',
   'Docker',
-  'Go',
-  'Figma',
-  'Firebase',
-  'MaterialUI',
-  'Nginx',
-  'Strapi'
+  'K8S',
+  'Redis',
+  'Kafka',
+  // 'Nginx',
+  // 'Git'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
@@ -27,10 +25,10 @@ export const skillsData = [
 
 // AVAILABLE SKILLS
 
-/* 
+/*
   HTML
   CSS
-  JS 
+  JS
   React
   Next JS
   Nuxt JS

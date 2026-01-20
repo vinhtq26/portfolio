@@ -40,9 +40,6 @@ function BlogCard({ blog }) {
             {blog.title}
           </p>
         </Link>
-        <p className='mb-2 text-sm text-[#16f2b3]'>
-          {`${blog.reading_time_minutes} Min Read`}
-        </p>
         <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6 line-clamp-3'>
           {blog.description}
         </p>
